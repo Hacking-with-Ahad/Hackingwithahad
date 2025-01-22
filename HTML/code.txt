@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn Ethical Hacking</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: gold;
+            color: black;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: darkgoldenrod;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: gold;
+            color: black;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+ <body>
+    <header>
+        <h1>Welcome to Ethical Hacking Learning Hub</h1>
+        <p>Your journey to mastering cybersecurity starts here!</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#tutorials">Tutorials</a>
+        <a href="#resources">Resources</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section>
+            <h2>About Ethical Hacking</h2>
+            <p>Ethical hacking involves identifying vulnerabilities
+                in systems and networks to improve their security.
+                Learn the fundamentals of cybersecurity,
+                penetration testing, and more in a responsible and legal way.
+            </p>
+        </section>
+        <section>
+            <h2>Hacking Tutorials</h2>
+             <a href="https://www.researchgate.net/publication/386505493_Ethical_Hacking_and_Penetration_Testing?_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InNjaWVuY2VUb3BpYyIsInBhZ2UiOiJzY2llbmNlVG9waWMifX0">Introduction to Ethical Hacking</a><br>
+             <a href="https://www.hackers-arise.com/networks-basics">Understanding Networks</a><br>
+             <a href="https://www.imperva.com/learn/application-security/penetration-testing/">Basic Penetration Testing</a><br>
+             <a href="https://www.blackhat.com/us-13/training/advanced-windows-exploitation-techniques.html">Advanced Exploitation Techniques</a><br>
+             <h2>Resources</h2>
+             <a href="https://www.kali.org/" target="_blank">Kali Linux</a><br>
+             <a href="https://www.hackthebox.com/" target="_blank">Hack The Box</a><br>
+             <a href="https://www.cybrary.it/" target="_blank">Cybrary</a><br>
+             <a href="https://www.owasp.org/" target="_blank">OWASP</a><br>
+            <h2>Contact Us</h2>
+         <form>
+             <label for="name">Name:</label><br />
+             <input type="text" id="name" name="name" required><br /><br />
+             <label for="email">Email:</label><br />
+             <input type="email" id="email" name="email" required><br /><br />
+             <label for="message">Message:</label><br />
+             <textarea id="message" name="message" rows="5" required></textarea><br /><br />
+             <button type="submit">Send</button>
+         </form>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Ethical Hacking Learning Hub. All rights reserved.</p>
+    </footer>
+ </body>
+
+</html>

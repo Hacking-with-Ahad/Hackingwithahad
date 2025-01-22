@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learn Ethical Hacking</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        line-height: 1.6;
+      }
+
+      header {
+        background-color: gold;
+        color: black;
+        padding: 20px 10px;
+        text-align: center;
+        background-image: url(download.png);
+        background-size: 150px 150px;
+        background-position: left center;
+        background-repeat: no-repeat;
+        position: relative;
+        padding-left: 160px;
+      }
+
+      nav {
+        background-color: darkgoldenrod;
+        padding: 10px;
+        text-align: center;
+      }
+
+      nav a {
+        color: #fff;
+        margin: 0 15px;
+        text-decoration: none;
+      }
+
+      .container {
+        padding: 20px;
+      }
+
+      footer {
+        background-color: gold;
+        color: black;
+        text-align: center;
+        padding: 10px 0;
+        margin-top: 20px;
+      }
+
+      .section {
+          margin-bottom: 15px;
+          padding: 5px;
+        }
+        nav a[href="#contact"] {
+          height: 50px;
+          display: inline-block;
+          line-height: 50px;
+        }
+
+      img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        margin: 10px 0;
+      }
+
+      form {
+        background-color: #f9f9f9;
+        padding: 20px;
+        border-radius: 10px;
+        border: 1px solid #ddd;
+        max-width: 600px;
+        margin: 20px auto;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      form label {
+        font-weight: bold;
+        margin-bottom: 5px;
+        display: block;
+      }
+
+      form input,
+      form textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 1rem;
+      }
+
+      form button {
+        background-color: darkgoldenrod;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        font-size: 1rem;
+        cursor: pointer;
+        width: 100%;
+      }
+
+      form button:hover {
+        background-color: goldenrod;
+      }
+
+      .contact-header {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 1.8rem;
+      }
+
+
+      @media (max-width: 768px) {
+        header {
+          background-size: 100px 100px;
+          background-position: left top;
+          padding-left: 20px;
+          text-align: left;
+          padding-top: 40px;
+        }
+
+        nav a {
+          display: block;
+          margin: 10px 0;
+        }
+
+        .container {
+          padding: 10px;
+        }
+
+        form {
+          max-width: 100%;
+          padding: 15px;
+        }
+
+        footer {
+          font-size: 0.8rem;
+        }
+
+        .contact-header {
+          font-size: 1.5rem;
+        }
+
+        img {
+          max-width: 100%;
+          height: auto;
+          margin-bottom: 10px;
+        }
+
+        .section {
+          margin-bottom: 15px;
+          padding: 5px;
+        }
+      }
+      
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <img src="logo.png" alt="Logo" style="width:100px;height:auto;">
+      <h1>Welcome to Ethical Hacking Learning Hub</h1>
+      <p>Your journey to mastering cybersecurity starts here!</p>
+    </header>
+
+    <nav>
+      <a href="about.html">About</a>
+      <a href="./reviewpaper.pdf">Review Paper</a>
+      <a href="#contact">Contact Us</a>
+    </nav>
+
+    <div class="container">
+      <section>
+        <h2>About Ethical Hacking</h2>
+        <p>
+          Ethical hacking involves identifying vulnerabilities in systems and
+          networks to improve their security. Learn the fundamentals of
+          cybersecurity, penetration testing, and more in a responsible and
+          legal way.
+        </p>
+      </section>
+
+      <section>
+        <h2>Hacking Tutorials</h2>
+        <a
+          href="https://www.researchgate.net/publication/386505493_Ethical_Hacking_and_Penetration_Testing?_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InNjaWVuY2VUb3BpYyIsInBhZ2UiOiJzY2llbmNlVG9waWMifX0"
+          >Introduction to Ethical Hacking</a
+        ><br />
+        <a href="https://www.hackers-arise.com/networks-basics"
+          >Understanding Networks</a
+        ><br />
+        <a
+          href="https://www.imperva.com/learn/application-security/penetration-testing/"
+          >Basic Penetration Testing</a
+        ><br />
+        <a
+          href="https://www.blackhat.com/us-13/training/advanced-windows-exploitation-techniques.html"
+          >Advanced Exploitation Techniques</a
+        ><br />
+
+        <h2>Resources</h2>
+        <a href="https://www.kali.org/" target="_blank"><b>Kali Linux</b></a
+        ><br />
+        <img src="kali.png" alt="kali linux" />
+        <a href="https://www.hackthebox.com/" target="_blank"
+          ><b>Hack The Box</b></a
+        ><br />
+        <img src="hackthebox.png" alt="hack the box" />
+        <a href="https://www.cybrary.it/" target="_blank"><b>Cybrary</b></a
+        ><br />
+        <img src="cyberary.png" alt="cybrary" />
+        <a href="https://www.owasp.org/" target="_blank"><b>OWASP</b></a
+        ><br />
+        <img src="owasp.png" alt="owasp" />
+      </section>
+
+      <section id="contact">
+        <h2 class="contact-header">Contact Us</h2>
+        <form>
+          <label for="name">Name:</label><br />
+          <input type="text" id="name" name="name" required /><br /><br />
+          <label for="email">Email:</label><br />
+          <input type="email" id="email" name="email" required /><br /><br />
+          <label for="message">Message:</label><br />
+          <textarea id="message" name="message" rows="5" required></textarea
+          ><br /><br />
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </div>
+
+    <footer>
+      <p>&copy; 2024 Ethical Hacking Learning Hub. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
